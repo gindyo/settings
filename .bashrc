@@ -119,4 +119,6 @@ alias gga='git add .'
 alias ggpl='git pull'
 alias ggp='git push'
 alias mybash="vim $HOME/.bashrc"
-
+alias ..="cd .."
+alias aptinstall="sudo apt-get install"
+alias aptupdate="suda apt-get update"
