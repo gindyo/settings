@@ -75,3 +75,9 @@ inoremap <s-tab> <c-n>
 let mapleader=","
 
 map <leader>t :w\|!rspec --drb --color %<cr>
+imap hh <esc>
+nmap t j
+nmap c k
+nmap n l
+nmap j c
+
