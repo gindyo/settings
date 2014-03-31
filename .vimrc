@@ -76,8 +76,14 @@ let mapleader=","
 
 map <leader>t :w\|!rspec --drb --color %<cr>
 imap hh <esc>
-nmap t j
-nmap c k
-nmap n l
-nmap j c
+no h <left>
+no n <right>
+no c <up>
+no t <down>
+no S :
+no j d
+no l n
+no L N
+no E $
+no B ^
 
