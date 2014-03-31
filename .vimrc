@@ -81,9 +81,6 @@ no n <right>
 no c <up>
 no t <down>
 no S :
-no j d
-no l n
-no L N
 no E $
 no B ^
 
