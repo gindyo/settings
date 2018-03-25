@@ -1,0 +1,60 @@
+{
+    "vim.insertModeKeyBindings": [
+        {
+            "before": [
+                "h",
+                "h"
+            ],
+            "after": [
+                "<ESC>"
+            ]
+        }
+    ],
+    "vim.otherModesKeyBindings": [
+        {
+            "before": [
+                "c"
+            ],
+            "after": [
+                "<UP>"
+            ]
+        },
+        {
+            "before": [
+                "h"
+            ],
+            "after": [
+                "<LEFT>"
+            ]
+        },
+        {
+            "before": [
+                "n"
+            ],
+            "after": [
+                "<RIGHT>"
+            ]
+        },
+        {
+            "before": [
+                "t"
+            ],
+            "after": [
+                "<DOWN>"
+            ]
+        },
+    ],
+    "vim.otherModesKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "<CR>"
+            ],
+            "after": [
+                "n"
+            ]
+        }
+    ],
+    "diffEditor.ignoreTrimWhitespace": true,
+    "window.zoomLevel": 0,
+    "gitlens.keymap": "alternate"
+}
