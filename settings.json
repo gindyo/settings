@@ -8,9 +8,78 @@
             "after": [
                 "<ESC>"
             ]
-        }
+        },
     ],
     "vim.otherModesKeyBindings": [
+        {
+            "before": [
+                "<leader>",
+                "s"
+            ],
+            "commands": [
+                {
+                    "command": "workbench.action.files.save"
+                }
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "<CR>"
+            ],
+            "after": [],
+            "commands": [
+                {
+                    "command": "editor.action.quickFix",
+                    "args": []
+                }
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "t"
+            ],
+            "after": [],
+            "commands": [
+                {
+                    "command": "workbench.action.quickOpen",
+                    "args": []
+                }
+            ]
+        },
+        {
+            "before": [
+                "-"
+            ],
+            "after": [
+                "/"
+            ]
+        },
+        {
+            "before": [
+                "_"
+            ],
+            "after": [
+                "N"
+            ]
+        },
+        {
+            "before": [
+                "B"
+            ],
+            "after": [
+                "^"
+            ]
+        },
+        {
+            "before": [
+                "E"
+            ],
+            "after": [
+                "$"
+            ]
+        },
         {
             "before": [
                 "c"
@@ -54,7 +123,28 @@
             ]
         }
     ],
+    "vim.easymotion": true,
+    "vim.incsearch": true,
+    "vim.useSystemClipboard": false,
+    "vim.useCtrlKeys": true,
+    "vim.hlsearch": true,
+    "vim.leader": "<space>",
+    "vim.handleKeys": {
+        "<C-a>": false,
+        "<C-f>": false
+    },
     "diffEditor.ignoreTrimWhitespace": true,
     "window.zoomLevel": 0,
-    "gitlens.keymap": "alternate"
+    "gitlens.keymap": "alternate",
+    "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+    "gitlens.advanced.messages": {
+        "suppressCommitHasNoPreviousCommitWarning": false,
+        "suppressCommitNotFoundWarning": false,
+        "suppressFileNotUnderSourceControlWarning": false,
+        "suppressGitVersionWarning": false,
+        "suppressLineUncommittedWarning": false,
+        "suppressNoRepositoryWarning": false,
+        "suppressResultsExplorerNotice": false,
+        "suppressShowKeyBindingsNotice": true
+    }
 }
